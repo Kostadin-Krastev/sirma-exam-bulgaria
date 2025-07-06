@@ -357,3 +357,50 @@ footer {
   font-weight: bold;
   color: var(--rating-score-color);
 }
+
+/* TESTIMONIAL SECTION */
+.testimonial-section {
+  width: 1248px;
+}
+
+.testimonial-heading {
+  width: 720px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.testimonial-quotes-container {
+  display: flex;
+  gap: 24px;
+}
+
+.testimonial-cart {
+  width: 400px;
+  padding: 32px;
+  margin-bottom: 80px;
+  border: 1px solid var(--background-second-color);
+  border-radius: 16px;
+}
+
+.testimonial-quote {
+  width: 336px;
+  height: 180px;
+  margin-bottom: 29px;
+  quotes: '"' '"';
+}
+
+.testimonial-quote::before {
+  content: open-quote;
+}
+
+.testimonial-quote::after {
+  content: close-quote;
+}
+
+.testimonial-person-info-wrapper h4 {
+  margin-bottom: 4px;
+}
+
+.testimonial-person-image {
+  margin-bottom: 8px;
+}
