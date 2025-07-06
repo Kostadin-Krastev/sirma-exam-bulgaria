@@ -404,3 +404,42 @@ footer {
 .testimonial-person-image {
   margin-bottom: 8px;
 }
+
+/* START ADVENTURE SECTION */
+.start-adventure-section {
+  display: flex;
+  justify-content: space-between;
+  width: 1088px;
+  padding: 64px;
+  margin: 0 auto 80px auto;
+  border-radius: 16px;
+  background-color: var(--background-color);
+}
+
+.start-adventure-text-container {
+  width: 548px;
+}
+
+.start-adventure-title {
+  margin-bottom: 16px;
+}
+
+.start-adventure-button-container {
+  display: flex;
+  gap: 12px;
+  width: 342px;
+  height: 45px;
+}
+
+.secondary-button {
+  padding: 12px 20px 12px 20px;
+  border: 1px solid var(--black-color);
+  border-radius: 40px;
+  background-color: var(--background-color);
+}
+
+.secondary-button a {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--black-color);
+}
