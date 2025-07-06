@@ -11,3 +11,66 @@
   font-family: 'DM Sans', Arial, sans-serif;
   font-size: 18px;
 }
+
+/* TEXT STYLES */
+h1,
+.our-platform-title,
+.travel-plans-heading,
+.testimonial-heading {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+.banner-content-section,
+.our-platform-title,
+.our-platform-text {
+  line-height: normal;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5,
+.rating-star {
+  font-size: 14px;
+}
+
+.banner-content-section,
+.statistic-section,
+.info-section {
+  text-align: center;
+}
+
+.header-navigation-section,
+.primary-button,
+.banner-button,
+.our-platform-text,
+.travel-plans-text,
+.price-wrapper p,
+.testimonial-person-info-wrapper p,
+.secondary-button,
+.top-footer-logo-menu-container p,
+.footer-menu-items a,
+.bottom-footer-section p,
+.bottom-footer-navigation-items a {
+  font-size: 16px;
+}
+
+.our-platform-section p,
+.travel-plans-info-text-container p,
+.price-wrapper p,
+.testimonial-person-info-wrapper p,
+.start-adventure-text {
+  color: var(--grey-color);
+}
