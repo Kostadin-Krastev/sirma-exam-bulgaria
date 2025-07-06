@@ -305,3 +305,55 @@ footer {
   border-radius: 16px;
   margin-right: 31px;
 }
+
+/* travel plans section */
+.travel-plans-heading {
+  margin-bottom: 16px;
+}
+
+.background-color-image-info-container {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  width: 414px;
+  height: 119px;
+  border-radius: 16px;
+  background-color: var(--white-color);
+}
+
+.image-info-text-wrapper {
+  margin: 16px;
+  text-align: left;
+}
+
+.info-text-image-paragraph {
+  margin-bottom: 4px;
+}
+
+.price-rating-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 382px;
+  margin: 0 auto;
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.rating-wrapper {
+  width: 54px;
+  padding: 2px 4px;
+  border-radius: 48px;
+  background-color: var(--rating-badge-color);
+}
+
+.rating-score {
+  display: inline-block;
+  vertical-align: baseline;
+  font-weight: bold;
+  color: var(--rating-score-color);
+}
