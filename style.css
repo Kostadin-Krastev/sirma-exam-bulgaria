@@ -74,3 +74,25 @@ h5,
 .start-adventure-text {
   color: var(--grey-color);
 }
+
+/* PAGE/SECTION WIDTH */
+.hero-section,
+.info-section,
+.our-platform-section,
+footer {
+  width: 1400px;
+}
+
+/* CENTRING SECTIONS */
+.hero-section,
+.header-navigation-section,
+.banner-content-section,
+.info-section,
+.info-text-container,
+.info-text-wrapper,
+.info-section-images-container,
+.our-platform-section,
+.testimonial-section,
+footer {
+  margin: 0 auto;
+}
