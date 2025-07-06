@@ -443,3 +443,76 @@ footer {
   text-decoration: none;
   color: var(--black-color);
 }
+
+/* FOOTER SECTION */
+footer {
+  border-radius: 16px;
+  padding: 48px 31px 24px 31px;
+  background-color: var(--black-color);
+}
+/* Top footer */
+.top-footer-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.footer-sirma-logo,
+.top-footer-logo-menu-container p {
+  margin-bottom: 32px;
+}
+
+.footer-main-menu {
+  width: 389px;
+}
+
+.footer-menu-items,
+.subscribe-container form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-container {
+  width: 440px;
+}
+
+.subscribe-container h4 {
+  margin-bottom: 16px;
+}
+
+.footer-email-input {
+  width: 257px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  outline: var(--white-color);
+  caret-color: var(--white-color);
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  background-color: var(--black-color);
+}
+
+.footer-email-input::placeholder {
+  font-size: 16px;
+  color: var(--white-color);
+}
+
+.footer-email-input:focus::placeholder {
+  color: transparent;
+}
+
+/* Bottom footer */
+.bottom-footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  border-top: 1px solid var(--grey-color);
+}
+
+.bottom-footer-navigation {
+  width: 191px;
+}
+
+.bottom-footer-navigation-items {
+  display: flex;
+  justify-content: space-between;
+}
