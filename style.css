@@ -261,3 +261,47 @@ footer {
 .travel-plans-image-container {
   margin-bottom: 40px;
 }
+
+/* our platform section */
+.our-platform-section {
+  justify-content: space-between;
+}
+
+.our-platform-text-container {
+  width: 589px;
+  margin-left: 31px;
+}
+
+.our-platform-text-wrapper,
+.our-platform-article-wrapper {
+  margin-bottom: 48px;
+}
+
+.our-platform-text-container article {
+  margin-bottom: 24px;
+}
+
+.our-platform-article {
+  display: flex;
+  gap: 24px;
+  width: 397px;
+}
+
+.pointer-icon-wrapper,
+.suitcase-icon-wrapper,
+.direction-icon-wrapper {
+  width: 34px;
+  height: 34px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--background-color);
+}
+
+.our-platform-image {
+  width: 576px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-right: 31px;
+}
