@@ -96,3 +96,99 @@ footer {
 footer {
   margin: 0 auto;
 }
+
+/* HEADER SECTION */
+.hero-section {
+  background: var(--background-color)
+    url(./images/places-to-visit-in-bulgaria.jpg);
+  height: 772px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  margin-bottom: 80px;
+}
+
+.header-navigation-section,
+.logo-navigation-container,
+.main-menu-items,
+.info-section-images-container,
+.our-platform-section {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation-section {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin-bottom: 140px;
+  padding-top: 20px;
+}
+
+.logo-navigation-container {
+  align-items: center;
+}
+
+.logo-navigation-container,
+.main-menu-items {
+  gap: 48px;
+}
+
+.logo-sirma {
+  width: 177.49px;
+  padding-left: 170px;
+}
+
+.main-menu-items a,
+.login-button,
+.primary-button a,
+.banner-button a,
+.footer-menu-items a,
+.bottom-footer-navigation-items a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.navigation-action-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 196px;
+  padding-right: 92px;
+}
+
+.primary-button,
+.banner-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: var(--black-color);
+}
+
+.banner-content-section {
+  width: 608px;
+  margin-bottom: 140px;
+}
+
+.banner-text-container {
+  margin-bottom: 40px;
+}
+
+.banner-text-container,
+.banner-button a,
+.top-footer-logo-menu-container p,
+.subscribe-container h4,
+.bottom-footer-section p {
+  color: var(--white-color);
+}
+
+.big-text-banner {
+  font-size: 68px;
+  margin-bottom: 24px;
+}
+
+.statistic-section {
+  display: flex;
+  justify-content: space-around;
+  color: var(--white-color);
+}
